@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         stop.setText("Stop")
         var mp=MediaPlayer()
         play.setOnClickListener {
-            mp.setDataSource(this, Uri.parse("android.resource://"+this.packageName+"/"+R.raw.bladerunner))
+            mp.setDataSource(this, Uri.parse("android.resource://"+this.packageName+"/"+R.raw.didi))
             mp.prepare()
             mp.start()
         }
