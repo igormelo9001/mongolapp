@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/genghiskhan3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:textSize="14dp"
+            android:text="Certa vez um Deus Niilista que estava cansado de tomar conta do céu
+            , foi pro bar do mané para encontrar redenção alcoólica, e ao fazer isso ele teve um alto grau etílico e criou
+            uma entidade chamada 'Sheiks' que organizou em um certo domingo uma reunião entre vários caras que frequentavam o bar.
+            Um deles o mongol master, também grande e comumente conhecido como 'Pornô' ou 'O Primeiro entre os Caídos', percebeu que a entidade sheiks havia sido um antigo humano
+            que frequentou várias feijoadas da organização chamada APAE.Certo tempo depois um discípulo do mongolismo do bar
+            do Mané, ficou vários anos frequentando o bar do Mané e o do Zé, para complementar a missão de monge mongol em suas
+            expedições. Este, era conhecido como 'Cabelin', que era amigo do mongol master Porno, que por sua vez havia descoberto a
+            entidade sheiks que Deus criou apartir do ser humano anterior.Desde então essa trindade trabalha para que mongóis como
+            o Amendoin, grande músico da cidade, espalhe a mensagem mongol entre os povo"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/retorno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="página inicial"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
